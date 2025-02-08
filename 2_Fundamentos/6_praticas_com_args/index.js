@@ -1,13 +1,18 @@
+//externo
 const minimist = require("minimist")
+
+
+
+
+//interno
+const soma = require('./soma').soma
 
 const args = minimist(process.argv.slice(2))
 
-console.log(args)
-const nome = args['nome']
-const profissao = args['profissao']
+const a = parseInt(args['a']) 
+const b = parseInt(args['b']) 
+
+soma(a, b)
 
 
-console.log(nome,profissao)
-
-console.log(`o nome dele é ${nome} e a profissao dele é  ${profissao}.`)
-//node .\index.js --nome=Vinicius
+// node .\index.js --a=5 --b=1
