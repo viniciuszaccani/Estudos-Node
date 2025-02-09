@@ -10,4 +10,4 @@ const profissao = args['profissao']
 console.log(nome,profissao)
 
 console.log(`o nome dele é ${nome} e a profissao dele é  ${profissao}.`)
-//node .\index.js --nome=Vinicius
+//node .\index.js --nome=Vinicius --profissao=programador
