@@ -1,0 +1,2 @@
+npm init -y 
+para dar yes para todas os questionamentos.
