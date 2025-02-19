@@ -1,0 +1,2 @@
+npm install --save-dev
+para criar dependencias somente em desenvolvimento (devDependencies).
